@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-samp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chrome-launcher": "^0.13.2",
+    "lighthouse": "^6.0.0",
+    "perf_hooks": "0.0.1",
+    "puppeteer": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juke-99/puppeteer-samples.git"
+  },
+  "author": "juke-99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juke-99/puppeteer-samples/issues"
+  },
+  "homepage": "https://github.com/Juke-99/puppeteer-samples#readme"
+}

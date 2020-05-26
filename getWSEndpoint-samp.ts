@@ -32,6 +32,8 @@ function getWSEndpoint(browserURL: string): Promise<string> {
     res.on('end', () => resolve(JSON.parse(data).webSocketDebuggerUrl));
   });
 
+  console.info('request: ' + request)
+
   request.on('error', reject);
   request.end();
 
@@ -43,6 +45,4 @@ function getWSEndpoint(browserURL: string): Promise<string> {
   });
 }
 
-(async () => {
-  await getWSEndpoint('http://localhost:9222');
-})();
+getWSEndpoint('http://localhost:9222');
