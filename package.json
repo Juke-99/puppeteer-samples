@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chrome-launcher": "^0.13.2",
     "lighthouse": "^6.0.0",
     "perf_hooks": "0.0.1",
